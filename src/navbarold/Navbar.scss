@@ -1,0 +1,50 @@
+header {
+    //상단바 고정
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    //width: 100% 와 동일
+  
+    //기본 설정
+    height: 40px;
+    padding: 1rem;
+    color: white;
+    background: teal;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #sidebar {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 250px;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #37474F;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+  #sidebar header {
+    background-color: #263238;
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
+  }
+  
+  header a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+  }
+  
+  header a:hover {
+    color: #000000;
+  }
